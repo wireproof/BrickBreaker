@@ -23,4 +23,4 @@ The UI test target is intended for disposable simulators only. It launches, play
 
 Resource extraction is reproducible with `python3 scripts/extract_levels.py /path/to/original-2d.jar`. Resource provenance is recorded in Resources. Reference archives and the full four-title research collection remain in the project Research directory.
 
-Physical installations remain pending; local delivery records are excluded from this public repository. A successful build or simulated test does not establish physical-device gameplay or visual compatibility.
+Installation and version readback succeeded on both intended physical devices; neither was launched. Core and iPhone 17 Pro/iPad simulator UI tests passed. Local device records are excluded from this public repository. A successful build or simulated test does not establish physical-device gameplay or visual compatibility.

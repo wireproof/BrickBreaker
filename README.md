@@ -47,10 +47,10 @@ Use Python 3 and run `python3 scripts/extract_resource_packs.py` from the reposi
 
 ## Release status
 
-The prerelease includes an unsigned modern Brick Breaker IPA requiring recipient signing. Legacy IPAs remain research references. No installation, physical-device launch, runtime test or visual verification is claimed. Personal recordings, device delivery records, local tool logs, account metadata and saves are not publication assets.
+The prerelease includes an unsigned modern Brick Breaker IPA requiring recipient signing. Legacy IPAs remain research references. Version 0.1.0 build 1 was installed on both intended physical devices and its identity/version read back. Neither physical app was launched; physical runtime and visual tests were not performed. Personal recordings, device delivery records, local tool logs, account metadata and saves are not publication assets.
 
 ## Prototype verification
 
-Core tests cover all 60 layouts, collision cases, pause and save serialization. iPad simulator UI tests passed play, controls, pause, rotation and reopening; portrait and landscape screenshots were inspected. Physical-device installation is pending a shared transfer lock held by another project. No physical launch or runtime verification is claimed.
+Core tests cover all 60 layouts, collision cases, pause and save serialization. iPhone 17 Pro and iPad simulator UI tests passed play, controls, pause, rotation and reopening; portrait and landscape screenshots were inspected. Physical installation and version readback succeeded on iPhone Duo and 11-inch iPad Pro. The Duo-specific simulator runtime stalled; phone UI coverage used iPhone 17 Pro. No physical launch or runtime verification is claimed.
 
 ![iPad prototype](docs/screenshots/ipad-original-level-portrait.png)
