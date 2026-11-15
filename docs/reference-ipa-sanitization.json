@@ -1,0 +1,26 @@
+[
+  {
+    "file": "3D_Brick_Breaker_Revolution_2_1.0.8_ios_3.0.ipa",
+    "source_sha256": "c609e442b8814d94eaaeb236ef0f1ebfbb32ef7edfba2674500eea7f5a049411",
+    "published_sha256": "1c9514bcce1c819bf0503810cd574e7ece6498333466ac5829d4973bbe3c1708",
+    "removed": [
+      "Payload/iDCWall3D2.app/most_uniQue",
+      "iTunesMetadata.plist"
+    ],
+    "changed": [
+      "Payload/iDCWall3D2.app/Info.plist:FlurryKey"
+    ],
+    "status": "sanitized legacy reference; not modern ARM64 build; not install-tested"
+  },
+  {
+    "file": "3D_Brick_Breaker_Revolution_1.1.7_ios_3.0.ipa",
+    "source_sha256": "bff8787bc096c654d3ef7a241f05d9f4685db274c8e054d8aad6913ee36e1f19",
+    "published_sha256": "874fa041add74c75c47432b2ef6e272dcf737af34595a56c3c5c1c7f9cad3a78",
+    "removed": [
+      "Payload/iDCWall.app/most_uniQue",
+      "iTunesMetadata.plist"
+    ],
+    "changed": [],
+    "status": "sanitized legacy reference; not modern ARM64 build; not install-tested"
+  }
+]

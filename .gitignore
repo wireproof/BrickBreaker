@@ -1,0 +1,8 @@
+.DS_Store
+reference/decoded-resources/
+__pycache__/
+PUBLICATION-PENDING.json
+ios/*.xcodeproj/
+*.mobileprovision
+*.p12
+*.pfx

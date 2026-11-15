@@ -1,0 +1,13 @@
+{
+  "archive_sha256": "0dc08152255ce06d1fd522cb6915bf2c7b84f7a47681630e4b533e5d442b82a9",
+  "pack": "r1",
+  "level_entry": 2,
+  "title_entry": 21,
+  "decoder_reference": "decompiled-original-2d/sources/defpackage/k.java:4298; d.java resource slicing",
+  "level_count": 60,
+  "unclassified_png_entries": [
+    13,
+    14
+  ],
+  "paddle_and_ball": "Prototype-drawn geometry, not recovered sprites"
+}
