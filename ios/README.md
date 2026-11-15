@@ -1,6 +1,6 @@
 # Brick Breaker — native prototype
 
-Version 0.1.1, build 2. Intended bundle ID: `com.wireproof.bbrevolution`.
+Version 0.1.2, build 3. Intended bundle ID: `com.wireproof.bbrevolution`.
 
 This is an early native iOS reconstruction, not a finished port. The collection selector identifies all four requested games; **only the original 2D prototype is playable**. The other three entries are labeled research-only. PalmOS work remains separate.
 
@@ -24,3 +24,5 @@ The UI test target is intended for disposable simulators only. It launches, play
 Resource extraction is reproducible with `python3 scripts/extract_levels.py /path/to/original-2d.jar`. Resource provenance is recorded in Resources. Reference archives and the full four-title research collection remain in the project Research directory.
 
 Installation and version readback succeeded on both intended physical devices; neither was launched. Core and iPhone 17 Pro/iPad simulator UI tests passed. Local device records are excluded from this public repository. A successful build or simulated test does not establish physical-device gameplay or visual compatibility.
+
+Version 0.1.2 sets both CFBundleDisplayName and CFBundleName to `Brick Breaker`. The supplied Home Screen screenshot showed the joined fallback name despite the correct display-name field. The bundle has no localized InfoPlist.strings overrides. This metadata correction preserves the bundle ID and remastered icon; installed version evidence is separate from Home Screen visual confirmation.

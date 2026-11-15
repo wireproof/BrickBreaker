@@ -9,13 +9,13 @@ Research foundation for one modern iOS application containing four distinct game
 
 ## Current status
 
-This is an experimental reverse-engineering and resource-recovery project. **Version 0.1.1 is a native ARM64 prototype of the original 2D game with 60 recovered layouts and title artwork. The other three games are research-only menu entries.** PalmOS versions are a separate planned effort and may be individual applications.
+This is an experimental reverse-engineering and resource-recovery project. **Version 0.1.2 is a native ARM64 prototype of the original 2D game with 60 recovered layouts and title artwork. The other three games are research-only menu entries.** PalmOS versions are a separate planned effort and may be individual applications.
 
 The intended modern app name is **Brick Breaker**, with bundle ID `com.wireproof.bbrevolution`. The app icon is remastered from the supplied original reference. Preserve each game's original presentation and mechanics.
 
 ## Build
 
-See `ios/README.md`; generate the Xcode project with XcodeGen in `ios/`. Version 0.1.1 updates the app icon; gameplay remains the original 2D prototype.
+See `ios/README.md`; generate the Xcode project with XcodeGen in `ios/`. Version 0.1.2 updates the app icon; gameplay remains the original 2D prototype.
 
 ## Included material
 
@@ -47,7 +47,7 @@ Use Python 3 and run `python3 scripts/extract_resource_packs.py` from the reposi
 
 ## Release status
 
-The prerelease includes an unsigned modern Brick Breaker IPA requiring recipient signing. Legacy IPAs remain research references. Version 0.1.1 build 2 was installed on both intended physical devices and its identity/version read back. Neither physical app was launched; physical runtime and visual tests were not performed. Personal recordings, device delivery records, local tool logs, account metadata and saves are not publication assets.
+The prerelease includes an unsigned modern Brick Breaker IPA requiring recipient signing. Legacy IPAs remain research references. Version 0.1.2 build 3 was installed on both intended physical devices and its identity/version read back. Neither physical app was launched; physical runtime and visual tests were not performed. Personal recordings, device delivery records, local tool logs, account metadata and saves are not publication assets.
 
 ## Prototype verification
 
@@ -58,3 +58,5 @@ Core tests cover all 60 layouts, collision cases, pause and save serialization. 
 ## Remastered icon
 
 ![Remastered app icon](ios/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png)
+
+Version 0.1.2 sets both CFBundleDisplayName and CFBundleName to `Brick Breaker`. The supplied Home Screen screenshot showed the joined fallback name despite the correct display-name field. The bundle has no localized InfoPlist.strings overrides. This metadata correction preserves the bundle ID and remastered icon; installed version evidence is separate from Home Screen visual confirmation.
