@@ -80,7 +80,7 @@ struct LibraryView: View {
                             Text("Research resources preserved · Not playable yet").font(.subheadline).foregroundStyle(.secondary)
                         }.frame(maxWidth:.infinity,alignment:.leading).padding(20).background(.white.opacity(0.06),in:RoundedRectangle(cornerRadius:18))
                     }
-                    Text("Custom app icon deferred. Saves stay on this device.").font(.footnote).foregroundStyle(.secondary)
+                    Text("Saves stay on this device.").font(.footnote).foregroundStyle(.secondary)
                 }.padding(24).frame(maxWidth:700).frame(maxWidth:.infinity)
             }.background(Color(red:0.025,green:0.045,blue:0.09))
                 .fullScreenCover(isPresented:$game.playing) { PlayView().environmentObject(game) }

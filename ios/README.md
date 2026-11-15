@@ -1,10 +1,10 @@
 # Brick Breaker — native prototype
 
-Version 0.1.0, build 1. Intended bundle ID: `com.wireproof.bbrevolution`.
+Version 0.1.1, build 2. Intended bundle ID: `com.wireproof.bbrevolution`.
 
 This is an early native iOS reconstruction, not a finished port. The collection selector identifies all four requested games; **only the original 2D prototype is playable**. The other three entries are labeled research-only. PalmOS work remains separate.
 
-The first module uses 60 decoded original level layouts and the recovered original title image. Paddle, ball and bricks are prototype-drawn geometry. Physics, scoring and level progression are newly implemented approximations, not validated replicas of the Java engine. Basic multi-hit and solid bricks work; original power-ups, boss behavior, audio and special-brick behavior are not implemented. Custom icon work is deferred; no custom icon approval is claimed.
+The first module uses 60 decoded original level layouts and the recovered original title image. Paddle, ball and bricks are prototype-drawn geometry. Physics, scoring and level progression are newly implemented approximations, not validated replicas of the Java engine. Basic multi-hit and solid bricks work; original power-ups, boss behavior, audio and special-brick behavior are not implemented. The app icon is remastered from the supplied original reference.
 
 Controls: drag horizontally to steer, then tap Launch ball. Pause and Games are always available. Progress saves locally under a versioned prototype save file; leaving gameplay or backgrounding pauses it. Unreadable saves are preserved and not overwritten. Start new game asks before replacing prototype progress.
 

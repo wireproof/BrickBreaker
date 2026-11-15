@@ -1,0 +1,2 @@
+Generated using the built-in image_gen tool from the user-supplied icon.
+Prompt: Remaster the provided Brick Breaker game icon as a crisp premium 1024x1024 iOS app icon. Retain perspective blue/cyan translucent bricks, a dark navy ball with electric white/cyan impact flare and fragments, turquoise paddle with golden ends, aqua/green/blue background and purple upper left. Clean dimensional arcade rendering, readable silhouettes, no text or watermark, full-bleed square with no white margins or rounded mask.

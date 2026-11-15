@@ -9,13 +9,13 @@ Research foundation for one modern iOS application containing four distinct game
 
 ## Current status
 
-This is an experimental reverse-engineering and resource-recovery project. **Version 0.1.0 is a native ARM64 prototype of the original 2D game with 60 recovered layouts and title artwork. The other three games are research-only menu entries.** PalmOS versions are a separate planned effort and may be individual applications.
+This is an experimental reverse-engineering and resource-recovery project. **Version 0.1.1 is a native ARM64 prototype of the original 2D game with 60 recovered layouts and title artwork. The other three games are research-only menu entries.** PalmOS versions are a separate planned effort and may be individual applications.
 
-The intended modern app name is **Brick Breaker**, with bundle ID `com.wireproof.bbrevolution`. A final custom icon has not been established. Preserve each game's original presentation and mechanics.
+The intended modern app name is **Brick Breaker**, with bundle ID `com.wireproof.bbrevolution`. The app icon is remastered from the supplied original reference. Preserve each game's original presentation and mechanics.
 
 ## Build
 
-See `ios/README.md`; generate the Xcode project with XcodeGen in `ios/`. The custom icon is deferred.
+See `ios/README.md`; generate the Xcode project with XcodeGen in `ios/`. Version 0.1.1 updates the app icon; gameplay remains the original 2D prototype.
 
 ## Included material
 
@@ -47,10 +47,14 @@ Use Python 3 and run `python3 scripts/extract_resource_packs.py` from the reposi
 
 ## Release status
 
-The prerelease includes an unsigned modern Brick Breaker IPA requiring recipient signing. Legacy IPAs remain research references. Version 0.1.0 build 1 was installed on both intended physical devices and its identity/version read back. Neither physical app was launched; physical runtime and visual tests were not performed. Personal recordings, device delivery records, local tool logs, account metadata and saves are not publication assets.
+The prerelease includes an unsigned modern Brick Breaker IPA requiring recipient signing. Legacy IPAs remain research references. Version 0.1.1 build 2 was installed on both intended physical devices and its identity/version read back. Neither physical app was launched; physical runtime and visual tests were not performed. Personal recordings, device delivery records, local tool logs, account metadata and saves are not publication assets.
 
 ## Prototype verification
 
 Core tests cover all 60 layouts, collision cases, pause and save serialization. iPhone 17 Pro and iPad simulator UI tests passed play, controls, pause, rotation and reopening; portrait and landscape screenshots were inspected. Physical installation and version readback succeeded on iPhone Duo and 11-inch iPad Pro. The Duo-specific simulator runtime stalled; phone UI coverage used iPhone 17 Pro. No physical launch or runtime verification is claimed.
 
 ![iPad prototype](docs/screenshots/ipad-original-level-portrait.png)
+
+## Remastered icon
+
+![Remastered app icon](ios/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png)
